@@ -1,0 +1,1 @@
+web: gunicorn dango_project.wsgi
