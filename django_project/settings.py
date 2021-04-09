@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
+import django_heroku
 # import json
 
 # with open('config.json') as config_file:
@@ -29,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = (os.environ.get('DEBUG_VALUE') == "True")
 
 ALLOWED_HOSTS = ['naziaawsomeblog.herokuapp.com']
 
@@ -144,3 +145,5 @@ EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 # EMAIL_HOST_USER = config.get('EMAIL_USER')
 # EMAIL_HOST_PASSWORD = config.get('EMAIL_PASS')
+
+django_heroku.settings(locals())
