@@ -1,4 +1,5 @@
 {
+    "SECRET_KEY": "fba3ce4cc5577d41935bc1851687e300bdad984133f4a6d",
     "EMAIL_USER": "traversaltechnologiesltd@gmail.com",
     "EMAIL_PASS": "goldenstar"
 }
