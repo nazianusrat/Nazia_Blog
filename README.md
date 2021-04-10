@@ -18,11 +18,11 @@ I hosted the application on Heroku platform in order to make the application ava
 
 I hope to improve this application by adding features like commenting and likes 
 
-Below are the links to the application and code base
+Below are the urls to the application and code base
 Github:  https://github.com/nazianusrat/Nazia_Blog/
-Application:naziaawsomeblog.herokuapp.com
+Application: aziaawsomeblog.herokuapp.com
 
 Links to helpful tutorial resources
-www.coreyms.com
-www.codewithmosh.com
+Corey Schafer: www.coreyms.com
+Mosh Hamedani: www.codewithmosh.com
 
